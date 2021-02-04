@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+*{
+    background-color: darkgray;
+    font-family: 'Orbitron', sans-serif;
+}
+
+main{
+    max-width: 992px;
+    margin: auto;
+    padding: 0;
+}
+
+.logoFootlocker{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+.SloganNike{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.logoNike{
+    width: 6%;
+    margin-left: 1.5%;
+}
+.contenedorGeneral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenedor1{
+    flex: 50%;
+    -webkit-transition: 1s linear;
+
+    transition: 1s linear;
+    text-align: center;
+    margin-top: 4%;
+}
+.contenedor1:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+.contenedor1 img{
+    width: 325px;
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;}
+
+@media (max-width: 992px) {
+    .contenedorGeneral {
+        flex-direction: column;
+    }
+}
